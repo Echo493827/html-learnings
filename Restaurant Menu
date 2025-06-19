@@ -1,0 +1,250 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title> Masala Mornings</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            color: #333;
+        }
+        
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        
+        #header-img {
+            max-width: 200px;
+            height: auto;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+        
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        
+        nav {
+            margin-top: 20px;
+        }
+        
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 20px;
+            font-size: 1.2em;
+            padding: 10px 20px;
+            background-color: #34495e;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        
+        nav a:hover {
+            background-color: #576574;
+        }
+        
+        main {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        section {
+            margin-bottom: 40px;
+        }
+        
+        h2 {
+            color: #2c3e50;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+            font-size: 2em;
+        }
+        
+        .menu-items {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 20px;
+        }
+        
+        article {
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            transition: transform 0.3s;
+        }
+        
+        article:hover {
+            transform: translateY(-5px);
+        }
+        
+        article img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 5px;
+            margin-bottom: 15px;
+        }
+        
+        article h3 {
+            color: #2c3e50;
+            margin-bottom: 10px;
+            font-size: 1.5em;
+        }
+        
+        article p {
+            margin-bottom: 10px;
+        }
+        
+        .price {
+            font-style: italic;
+            font-weight: bold;
+            color: #e74c3c;
+        }
+        
+        form {
+            background-color: #f8f9fa;
+            padding: 30px;
+            border-radius: 10px;
+            border: 1px solid #ddd;
+        }
+        
+        .form-group {
+            margin-bottom: 20px;
+        }
+        
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+            color: #2c3e50;
+        }
+        
+        input[type="number"] {
+            width: 100px;
+            padding: 8px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 16px;
+        }
+        
+        input[type="radio"], input[type="checkbox"] {
+            margin-right: 8px;
+        }
+        
+        textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            resize: vertical;
+            font-family: Arial, sans-serif;
+            font-size: 14px;
+        }
+        
+        input[type="submit"] {
+            background-color: #3498db;
+            color: white;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 5px;
+            font-size: 18px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        
+        input[type="submit"]:hover {
+            background-color: #2980b9;
+        }
+        
+        .radio-group, .checkbox-group {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-top: 10px;
+        }
+        
+        .radio-group label, .checkbox-group label {
+            font-weight: normal;
+            display: flex;
+            align-items: center;
+        }
+        
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img id="header-img" alt="Restaurant Logo">
+        <h1> Masala Mornings </h1>
+        <nav>
+            <a href="#menu">Menu</a>
+            <a href="#order-form">Place Order</a>
+        </nav>
+    </header>
+    <main>
+        <section id="menu">
+            <h2>Menu</h2>
+            <div class="menu-items">
+                <article>
+                    <!-- pic 1 -->
+                    <img alt="Gulab Jamun Pancakes">
+                    <h3> Gulab Jamun Pancakes</h3>
+                    <p>Pancake served with chunks of Gulab Jamun bathed in a cardamom-rose syrup topped with clotted cream and a pistachio crumble <span class="price">$12.99</span></p>
+                </article>
+                <article>
+                    <!-- pic 2 -->
+                    <img alt="Saffron-Cardamom French Toast with Mango Compote/Whip">
+                    <h3> Saffron-Cardamom French Toast with Mango Compote/Whip</h3>
+                    <p>Delicious Brioche sooaked in a Saffron-Cardamom custard served with your choice of a mango compote or whipped cream <span class="price">$15.99</span></p>
+                </article>
+                <article>
+                    <!-- pic 3 -->
+                    <img alt="Tandoori Chicken Benedict">
+                    <h3> Tandoori Chicken Benedict</h3>
+                    <p>Chicken Breast marinated in a variety of spices and thinly sliced served on a garlic butter English Muffin along with a poached egg and a curry lead hollandaise  <span class="price">$18.99</span></p>
+                </article>
+            </div>
+        </section>
+
+        <section id="order-form">
+            <h2>Place Your Order</h2>
+            <form>
+                <div class="form-group">
+                    <h3>Menu Items</h3>
+                    <label for="pancakes-qty">Gulab Jamun Pancakes:</label>
+                    <input type="number" id="pancakes-qty" name="pancakes-qty" min="0" value="0">
+                    <br><br>
+                    <label for="toast-qty">Saffron-Cardamom French Toast with Mango Compote/Whip:</label>
+                    <input type="number" id="toast-qty" name="toast-qty" min="0" value="0">
+                    <br><br>
+                    <label for="chicken-qty">Tandoori Chicken Benedict:</label>
+                    <input type="number" id="chicken-qty" name="chicken-qty" min="0" value="0">
+                </div>
+                <div class="form-group">
+                    <label for="special-requests">Special Requests:</label>
+                    <textarea id="special-requests" name="special-requests" rows="4" placeholder="Any special instructions, allergies, or modifications..."></textarea>
+                </div>
+                <input type="submit" value="Go To Checkout">
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>Made with love by Echo493827</p>
+        <p>Copyright Mohammad Pehlari @ 2025</p>
+    </footer>
+</body>
+</html>
