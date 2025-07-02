@@ -1,19 +1,94 @@
+<!-- Write code below 💖-->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Personal Site</title>
-  <link href="styles.css" rel="stylesheet" />
+  <title>Mohammad H. Pehlari - Personal Portfolio</title>
 </head>
 <body>
   <header>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#socials">Socials</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="hero">
+      <h1>Mohammad H. Pehlari</h1>
+      <p>Aspiring People Analyst and Restaurateur</p>
+    </div>
   </header>
   <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <div class="about-content">
+        <img src="#" alt="My Photo" class="profile-img">
+        <div class="about-text">
+          <p>Hello! I am a passionate foodie, aspiring people analyst, and a huge mental health advocate. I finished my Bachelor's at Purdue and will be attending Illinois Institute of Technology for a Masters in I-O Psychology with a data science focus, where I will aim to become a people analyst!</p>
+          <p>My experience in coding is limited, however I have had a growing passion for it and I aim to learn more and more about programming. Currently I am efficient in Python and SQL as that is what my current role requires, but I hope to become more efficient at other langauges and Machine Learning.</p>
+          <p>When I'm not coding/learning to code or working, I am busy cooking at eating. I have a huge passion for everything culinary! I am working on my own pop ups right now and am in the early stages of developing a content channel to post my food.</p>
+          <p>I hope to one day create something that will combine my passions of food, people, and technology!.</p>
+        </div>
+      </div>
+    </section>
+    <section id="projects">
+      <h2>Recent Works</h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <div class="project-img">Project Placeholder</div>
+          <h3>Dissociating the Influence of Music and Video Game Experience on Visual Attention</h3>
+          <p>A Clinical and Cognitive Research Project conducted in which I won first place at a research Expo</p>
+          <div class="project-links">
+            <a href="https://drive.google.com/file/d/1t0F4tMwSFXJOAc1xJESKRbT_wR_lhi-s/view" target="_blank">Poster</a>
+            <a href="#" target="_blank">Thesis Paper</a>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-img">Project Placeholder</div>
+          <h3>RTO Processor</h3>
+          <p>An Example of a piece of code I've done for Southwire. This involved a mix of Python and Excel.</p>
+          <div class="project-links">
+            <a href="#" target="_blank">Code</a>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-img">Project Placeholder</div>
+          <h3>Recipes</h3>
+          <p>A compilation of my recent Recipes and food works</p>
+          <div class="project-links">
+            <a href="#" target="_blank">Youtube</a>
+            <a href="#" target="_blank">Recipes</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="socials">
+      <h2>My Links and Socials!</h2>
+      <div class="social-links">
+            <a href="https://www.linkedin.com/in/mohammadhpehlari/" target="_blank">LinkedIn</a>
+            <a href="https://github.com/Echo493827" target="_blank">GitHub</a>
+            <a href="https://www.youtube.com/@cabbageecho" target="_blank">Youtube</a>
+            <a href="#" target="_blank">Tiktok</a>
+      </div>
+    </section>
+    <section id="contact">
+      <h2>Contact Me!</h2>
+      <div class="contact-content">
+        <div class="contact-info">
+          <h3>Let's Connect!</h3>
+          <p>I'm always interested in connecting with people! Please feel free to reach out!</p>
+          <p><strong>Email:</strong> mopehlari101@gmail.com</p>
+          <p><strong>Phone:</strong> 847-246-2830</p>
+        </div>
+      </div>
+    </section>
   </main>
   <footer>
+    <p>&copy; 2025 Mohammad H Pehlari. Built with a growing passion for Coding </p>
   </footer>
 </body>
 </html>
-
-<!-- iii -->
